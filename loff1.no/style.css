@@ -1,0 +1,302 @@
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+  background: url('designbilder/bakgrunn2.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+
+#tekstfelt{
+    float: left;
+    width: 800px;
+    max-height: 600px;
+    overflow-y: auto;
+    color: white;
+    margin-top: 230px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: large;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#tekstfelt h1{
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: max-content;
+}
+#tekstfelt h2{
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: max-content;
+}
+
+#tekstfelt p{
+    width: 550px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    
+}
+
+#tekstfelt img{
+    float: right;
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 0px;
+}
+#side{
+    width: 1500px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#left{
+    float: left;
+    background-color: black;
+    opacity: 0.5;
+    width: 512px;
+    height: 100vh;
+    margin-left: 30px;
+    position: fixed;
+}
+#right{
+    float: left;
+    width: 827px;
+    height: 100vh;
+    margin-left: 580px;
+    position: fixed;
+    
+}
+
+
+#tekster{
+    
+    width: 512px;
+    height: 700px;
+    position: fixed;
+    
+    overflow-y: auto; 
+    visibility: hidden;
+    margin-left: 30px;
+    margin-top: 300px;
+    
+}
+#logo{
+    float: left;
+    
+    background-image: url(designbilder/logomain.png);
+    background-size: cover;
+    position: fixed;
+    width:512px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+#sisteNyttTekst{
+    width: 500px;
+    height: 200px;
+    
+    padding-left: 6px;
+    padding-right: 6px;
+    visibility: visible;
+    background-image: url(designbilder/sistebakgrunn.png);
+    background-size: cover;
+    
+    
+    
+}
+
+#sisteNyttTekst p{
+    color: white;
+    font-size: large;
+    overflow-y: auto;
+    height: inherit;
+}
+
+#sisteNyttTekst img{
+    width: 200px;
+    height: 150px;
+    float: right;
+    
+}
+
+#programTekst{
+    width: 500px;
+    height: 1500px;
+    visibility: visible;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-image: url(designbilder/nyhetbakgrunn.png);
+    background-size: cover;
+    
+    
+     
+}
+.arrangement{
+    margin-top: 20px;
+    width: inherit;
+    height: 153px;
+    background-color: rgba(0, 0, 0, 0.50);
+    
+   
+}
+
+.arrangement img{
+    float: right;
+    width: 200px;
+    height: 153px;
+}
+
+.arrangement h1{
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.arrangement p{
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-left: 11px;
+    width: 289px;
+    
+    height: 110px;
+    overflow: auto;
+    
+}
+
+.dato{
+    width: 200px;
+    height: 153px;
+    
+    background-color: rgba(255, 255, 255, 0.60);
+    margin-left: 300px;
+    position: absolute;
+    
+    
+}
+.dato p{
+    width: 200px;
+    padding-top: 20px;
+    color: black;
+    font-size:40px;
+    margin-left: 0;
+    text-align: center;
+    height: 133px;
+    
+    
+    
+}
+
+#facebook{
+    visibility: visible;
+    
+    height: 300px;
+    width: inherit;
+    
+    float: left;
+}
+#meny{
+    float:left;
+    
+    width: inherit;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+
+#menyikon{
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+
+#menyikonOm{
+    position: absolute;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url(designbilder/om.png);
+    
+}
+
+#menyikonOm:hover{
+    
+    
+    
+    position: absolute;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url(designbilder/omhover.png);
+}
+#menyikonKontakt{
+    position: absolute;
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    
+    background-image: url(designbilder/kontakt.png);
+}
+#menyikonKontakt:hover{
+    position: absolute;
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    
+    background-image: url(designbilder/kontakthover.png);
+}
+#menyikonKonfirmant{
+    position: absolute;
+    margin-left: 550px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    background-image: url(designbilder/konfirmant.png);
+}
+#menyikonKonfirmant:hover{
+    position: absolute;
+    margin-left: 550px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    background-image: url(designbilder/konfirmanthover.png);
+}
+#slideShowImages{
+    float: left;
+    width: inherit;
+    margin-top: 10px;
+    
+}
+
+h1{
+    font-family: Arial;
+    font-size: x-large;
+    color: white;
+    opacity: 1.0;
+    
+}
