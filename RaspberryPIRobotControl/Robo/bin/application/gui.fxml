@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="main" prefHeight="426.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label fx:id="labA" layoutX="14.0" layoutY="16.0" prefHeight="21.0" prefWidth="138.0" text="Robostyring">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="btnP1" layoutX="16.0" layoutY="313.0" mnemonicParsing="false" text="P1" />
+      <Rectangle fx:id="f1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="237.0" layoutX="177.0" layoutY="113.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="91.0" />
+      <Polygon fx:id="f2" fill="DODGERBLUE" layoutX="223.0" layoutY="86.0" scaleX="1.5" stroke="TRANSPARENT" strokeType="INSIDE" visible="false">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Polygon fx:id="b1" fill="DODGERBLUE" layoutX="225.0" layoutY="373.0" rotate="180.0" scaleX="1.5" stroke="TRANSPARENT" strokeType="INSIDE" visible="false">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Arc fx:id="v3" fill="DODGERBLUE" layoutX="184.0" layoutY="197.0" length="270.0" radiusX="85.0" radiusY="85.0" rotate="180.0" startAngle="90.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" visible="false" />
+      <Rectangle fx:id="v2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="90.0" layoutX="90.0" layoutY="112.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="91.0" />
+      <Rectangle fx:id="v4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="150.0" layoutX="178.0" layoutY="199.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="91.0" />
+      <Polygon fx:id="v1" fill="DODGERBLUE" layoutX="50.0" layoutY="167.0" rotate="-90.0" scaleX="1.5" stroke="TRANSPARENT" strokeType="INSIDE" visible="false">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Rectangle fx:id="h2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="90.0" layoutX="262.0" layoutY="113.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="91.0" />
+      <Polygon fx:id="h1" fill="DODGERBLUE" layoutX="403.0" layoutY="169.0" rotate="90.0" scaleX="1.5" stroke="TRANSPARENT" strokeType="INSIDE" visible="false">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+         </points>
+      </Polygon>
+      <Arc fx:id="h3" fill="DODGERBLUE" layoutX="264.0" layoutY="198.0" length="270.0" radiusX="85.0" radiusY="85.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" visible="false" />
+      <Button fx:id="btnP2" layoutX="16.0" layoutY="348.0" mnemonicParsing="false" text="P2" />
+      <Button fx:id="btnP3" layoutX="16.0" layoutY="383.0" mnemonicParsing="false" text="P3" />
+      <Label fx:id="labA1" layoutX="2.0" layoutY="286.0" prefHeight="21.0" prefWidth="138.0" text="Forhåndsprogrammert:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnP4" layoutX="72.0" layoutY="313.0" mnemonicParsing="false" text="P4" />
+      <Button fx:id="btnP5" layoutX="72.0" layoutY="348.0" mnemonicParsing="false" text="P5" />
+      <Button fx:id="btnP6" layoutX="72.0" layoutY="383.0" mnemonicParsing="false" text="P6" />
+   </children>
+</AnchorPane>
